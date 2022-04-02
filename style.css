@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: #000;
+  color: #eee;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.completeBrand {
+  display: flex;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.signature {
+  width: 300px;
+  margin-left: 1em;
+}
+
+.brand {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 1em 2em;
+}
+
+.nav {
+  text-align: end;
+}
+
+.nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #eee;
+  margin-left: 1.5em;
+}
+
+.nav a:hover {
+  color: #aaa;
+}
+
+/* Section about*/
+.about {
+  padding: 6.25em;
+  background-color: #000;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.personal,
+.attendance {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+.content-personal p,
+.attendance p {
+  font-size: 1.5em;
+  margin: 1em 0;
+  line-height: 1.5;
+}
+
+.content-personal p strong,
+.attendance p strong {
+  color: #fff;
+}
+
+/* section treatment*/
+
+.treatment {
+  background-color: #fff;
+  color: #000;
+  padding: 6.25em;
+}
+
+.items ,
+.valueItems{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4em;
+  justify-content: center;
+}
+
+.treatment-item {
+  width: 500px;
+  height: 300px;
+  background-image: url("./img/img-clara.png");
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.treatment-item .title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.treatment-item .description {
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+/* section local*/
+.local {
+  padding: 6.25em;
+  background-color: #000;
+}
+
+.local-item {
+  width: 540px;
+  height: 700px;
+  background-color: #1cdad9;
+  border-radius: 10px;
+}
+
+.local-item  .online-pc {
+  background-color: #fff;
+  height: 435px;
+  padding: 4em;
+  border-radius: 10px 10px 0 0;
+}
+
+.local-description {
+  padding: 2em;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 2;
+}
+
+.local-description a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 0.5em 8em;
+  margin: 2em;
+}
+
+.local-description a:hover {
+  background-color: #eee;
+}
+
+/* section value*/
+.value {
+  background-color: #fff;
+  padding: 6.25em;
+}
+
+.value h2{
+  color: #000;
+}
+
+.value-item {
+  padding: 2em;
+  width: 500px;
+  height: 300px;
+  background-color: #6B7578;
+  background-image: url("./img/fundoEscuro.png");
+  border-radius: 10px;
+  text-align: center;
+}
+
+.value-item p {
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 2;
+}
+
+.promotion {
+  color: #F7FC0C;
+  padding-top: .5em;
+}
+
+.titleValue {
+  color: #fff;
+  padding-top: 1.5em;
+}
+
+.value h3 {
+  color:#1CDAD9;
+  text-align: center;
+  margin-top: 3em;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+/* section contact */
+.contact {
+  background-color: #1CDAD9;
+  padding: 6.25em;
+  color: #000;
+}
+
+.container-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact-content {
+  font-size: 1.5em;
+  line-height: 2;
+}
+
+.button-contact a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 0.8em 3em;
+  margin: 2em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.button-contact a img {
+  width: 40px;
+  margin-right: 1em;
+}
+
+/* footer */
+footer {
+  background-color: #000;
+  padding: 6.25em 6.25em 2em 6.25em;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0;
+}
+
+.footer-content h3 {
+  text-transform: uppercase;
+  padding: 1em 0;
+}
+
+.whats {
+  color: #25D366;
+}
+
+.connect img {
+  padding-right: 1em;
+}
+
+.dev {
+  padding: 4em 0 0 0;
+}
+
+.dev p {
+  text-align: center;
+  margin: 1em 1em 0 0;
+}
+
+.container-dev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.favicon {
+  width: 50px;
+}
+
+.brandLe {
+  width: 200px;
+}
