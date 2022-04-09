@@ -280,19 +280,7 @@ footer {
   padding: 1em 0;
 }
 
-.whats {
-  color: #25D366;
-}
-
-.connect img {
-  padding-right: 1em;
-}
-
-.dev {
-  padding: 4em 0 0 0;
-}
-
-.whats a{
+a{
   text-align: center;
   margin: 1em 1em 0 0;
   font-size: .8em;
@@ -303,6 +291,18 @@ footer {
 
 .project {
   text-align: center;
+}
+
+.whats {
+  color: #25D366;
+}
+
+.connect img {
+  padding-right: 1em;
+}
+
+.dev {
+  padding: 4em 0 0 0;
 }
 
 .container-dev {
