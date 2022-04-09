@@ -292,10 +292,17 @@ footer {
   padding: 4em 0 0 0;
 }
 
-.dev p {
+a{
   text-align: center;
   margin: 1em 1em 0 0;
   font-size: .8em;
+  text-decoration: none;
+  font-size: 1em;
+  color: #25D366;
+}
+
+.project {
+  text-align: center;
 }
 
 .container-dev {
