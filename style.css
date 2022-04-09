@@ -56,10 +56,19 @@ img {
   color: #aaa;
 }
 
+.folder-principal {
+  background-color: #7F7E7C;
+}
+
+.work {
+  max-width: 100%;
+  width: 300px;
+}
+
 /* Section about*/
 .about {
   padding: 6.25em;
-  background-color: #000;
+  background-color: #7F7E7C;
 }
 
 h2 {
@@ -74,6 +83,7 @@ h2 {
   display: flex;
   align-items: center;
   gap: 3em;
+  margin-top: 6em;
 }
 
 .content-personal p,
@@ -285,6 +295,7 @@ footer {
 .dev p {
   text-align: center;
   margin: 1em 1em 0 0;
+  font-size: .8em;
 }
 
 .container-dev {
@@ -295,9 +306,28 @@ footer {
 }
 
 .favicon {
-  width: 50px;
+  width: 30px;
 }
 
 .brandLe {
-  width: 200px;
+  width: 100px;
+}
+
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.fa-whatsapp {
+  margin-top: 16px;
 }
